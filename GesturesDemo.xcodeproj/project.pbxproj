@@ -12,6 +12,7 @@
 		579E2E272ACA7544008D0279 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 579E2E262ACA7544008D0279 /* Assets.xcassets */; };
 		579E2E2B2ACA7544008D0279 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 579E2E2A2ACA7544008D0279 /* Preview Assets.xcassets */; };
 		579E2E362ACA922E008D0279 /* InfoPanelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 579E2E352ACA922E008D0279 /* InfoPanelView.swift */; };
+		579E2E382ACB4B82008D0279 /* ControlImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 579E2E372ACB4B82008D0279 /* ControlImageView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		579E2E282ACA7544008D0279 /* GesturesDemo.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = GesturesDemo.entitlements; sourceTree = "<group>"; };
 		579E2E2A2ACA7544008D0279 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		579E2E352ACA922E008D0279 /* InfoPanelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoPanelView.swift; sourceTree = "<group>"; };
+		579E2E372ACB4B82008D0279 /* ControlImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControlImageView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +88,7 @@
 			isa = PBXGroup;
 			children = (
 				579E2E352ACA922E008D0279 /* InfoPanelView.swift */,
+				579E2E372ACB4B82008D0279 /* ControlImageView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -174,6 +177,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				579E2E382ACB4B82008D0279 /* ControlImageView.swift in Sources */,
 				579E2E252ACA7543008D0279 /* ContentView.swift in Sources */,
 				579E2E232ACA7543008D0279 /* GesturesDemoApp.swift in Sources */,
 				579E2E362ACA922E008D0279 /* InfoPanelView.swift in Sources */,
